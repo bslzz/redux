@@ -1,11 +1,16 @@
+import Contacts from './components/contacts/Contacts';
+import Navbar from './components/layout/Navbar';
 import './styles/App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className="text-primary">Hello</h1>
-      </header>
+      <Navbar />
+      <div className="container">
+        <div className="py-3">
+          <Contacts />
+        </div>
+      </div>
     </div>
   );
 }
