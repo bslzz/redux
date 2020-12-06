@@ -1,5 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+#scss
+App.css.map
+App.scss
+index.css.map
+index.scss
+
 # dependencies
 /node_modules
 /.pnp
